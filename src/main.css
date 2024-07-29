@@ -1,10 +1,15 @@
-/* No white bars around body */
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
     display: flex;
     flex-direction: column;
-    max-height: 100vh;
+    min-height: 100vh;
+    background: url(./assets/images/nick-karvounis-jN_M0McVNeI-unsplash.jpg);
+    color: white;
 } 
 
 
@@ -15,12 +20,25 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     gap: 5vw;
-    background-color: darkGrey;
+    background-color: rgba(0,0,0,0.7);
 }
 
 .nav-button {
     background: none;
     border: none;
     font-size: 25px;
-    background-color: lightblue;
+    color: white;
+}
+
+.main-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0,0,0,0.7);
+}
+
+.footer {
+    margin-top: auto;
+    background-color: green;
 }
