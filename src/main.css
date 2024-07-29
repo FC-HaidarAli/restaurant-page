@@ -12,6 +12,13 @@ body {
     color: white;
 } 
 
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0,0,0,0.7);
+}
 
 .navigation-bar {
     display: flex;
@@ -28,14 +35,6 @@ body {
     border: none;
     font-size: 25px;
     color: white;
-}
-
-.main-component {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: rgba(0,0,0,0.7);
 }
 
 .footer {
