@@ -32,10 +32,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    height: 50px;
+    gap: 25px;
+    height: 100px;
     width: 100%;
     background-color: rgba(0,0,0,0.7);
+}
+
+.nav-button {
+    box-sizing: content-box;
+    color: white;
+    background: none;
+    border: none;
+    font-family: 'cafeStyle';
+    height: 40px;
+    width: 75px;
+    font-size: 1.5rem;
 }
 
 .main-component {
