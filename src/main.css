@@ -4,6 +4,13 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'cafeStyle';
+    src: url(./assets/fonts/FrederickatheGreat-Regular.ttf) format('truetype');
+    font-weight: 600;
+    font-style: 'normal';
+}
+
 html, body, .content {
     height: 100%;
     margin: 0;
@@ -14,6 +21,7 @@ body {
     position: relative;
     background: url(./assets/images/nick-karvounis-jN_M0McVNeI-unsplash.jpg);
     color: white;
+    font-family: 'cafeStyle';
 }
 
 .navigation-bar, .main-component, .footer {
